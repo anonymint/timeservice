@@ -4,7 +4,6 @@ var path = process.cwd();
 var Controller = require(path + '/app/controller/timeController.js');
 var timeController = new Controller();
 
-
 module.exports = function(app) {
 
 	app.route('/')
